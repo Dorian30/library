@@ -43,6 +43,7 @@ export type TKeyboardListener = (event: globalThis.KeyboardEvent) => void;
  * @example
  * ```tsx
  * import { useRef } from 'react';
+ *
  * import { useKeyboard } from './useKeyboard';
  *
  * const MyComponent = () => {
